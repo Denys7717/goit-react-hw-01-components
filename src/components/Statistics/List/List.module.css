@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  color: #ffffff;
+  background-color: tomato;
+  border: 1px solid;
+  border-color: teal;
+}
+
+.item:last-child {
+  border-radius: 0 0 10px 0;
+}
+
+.item:first-child {
+  border-radius: 0 0 0 10px;
+}
+
+.label {
+  margin-bottom: 15px;
+  color: black;
+}
+
+.percentage {
+  font-size: larger;
+  color: black;
+}
