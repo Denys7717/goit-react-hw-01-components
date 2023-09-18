@@ -1,7 +1,6 @@
 import css from './Friend.module.css';
 
 export const Friends = ({ arrayOfFriends }) => {
-  console.log(arrayOfFriends);
   return arrayOfFriends.map(({ avatar, name, isOnline, id }) => {
     return (
       <>

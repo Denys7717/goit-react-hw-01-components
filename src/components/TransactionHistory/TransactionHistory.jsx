@@ -2,7 +2,6 @@ import { TransactionData } from './TransactionData/TransactionData';
 import css from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ items }) => {
-  console.log(items);
   return (
     <>
       <table className={css.transactionHistory}>
